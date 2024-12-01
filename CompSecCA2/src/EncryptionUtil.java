@@ -100,12 +100,10 @@ public class EncryptionUtil {
                 if (output != null) {
                     fos.write(output);
                 }
-
                 fis.close();
                 fos.close();
-
                 System.out.println("File decrypted successfully!");
-            }
+                }
                 else{
                     System.out.println("The secret key was in valid");
                 }
@@ -113,5 +111,6 @@ public class EncryptionUtil {
             System.out.println("Error while decrypting: " + e.getMessage());
         }
     }
+
 }
 
