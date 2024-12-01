@@ -12,3 +12,4 @@ public class Main {
             MenuUtil.displayMenu(menuOptions, "Encryption Menu");
             try {
                 menuChoice = MenuUtil.getMenuChoice(menuOptions.length);
+                System.out.println();
